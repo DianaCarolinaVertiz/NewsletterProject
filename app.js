@@ -53,7 +53,7 @@ app.post("/", function(req,res){
             res.sendFile(__dirname + "/success.html")
         }
         else {
-            console.log("Something were wrong!!")
+            console.log("Something were wrong!!, statusCode: " + response.statusCode)
             //res.send("Something were wrong, Please try again!")
             res.sendFile(__dirname + "/failure.html")
         }
