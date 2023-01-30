@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(1, 199, 138, 0.5);
+}
+
+#footer {
+  
+  color: white;
+}
+
+.btn {
+  background-color: #00C586;
+  border-color: #8DDEC2;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.btn:hover{
+  background-color: #01B685;
+  border-color: #8DDEC2;
+}
+
+.img{
+  margin: 40px 20px 40px 10px;
+}
+
+.big-text{
+  font-family: poppins;
+  font-weight: 800;
+  color: white;
+}
+
+.small-text{
+  
+  font-size: 10pt;  
+  color: white;
+}
+
+.text-label{
+  color: gray;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
