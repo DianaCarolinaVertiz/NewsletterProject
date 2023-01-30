@@ -6,6 +6,7 @@ const https = require("https");
 const app = express();
 const port = process.env.PORT || 3000;
 
+// path required
 require("dotenv").config({ path : "vars/.env"})
 
 app.use(bodyParser.urlencoded({extended:true}))
